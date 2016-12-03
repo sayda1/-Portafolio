@@ -3,9 +3,115 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="iconos/style.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-
+    <header class="menu">
+        <div class="container-fluid"> 
+          <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                  <h5>MI PORTAFOLIO</h5>
+                </div>
+                
+                <div class="col-md-9 col-sm-9 col-xs-6">
+                    <div class="visible-xs text-right">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                          <span class="sr-header"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <nav class="hidden-xs">
+                     <ul class=" desktop-menu list-inline text-right">
+                           <li><a href="#">Inicio</a></li>
+                           <li><a href="#documental">Documental</a></li>
+                           <li><a href="#hackathon">Hackathon</a></li>
+                           <li><a href="#formulario">Contacto</a></li>
+                     </ul>
+                   </nav>
+                </div>
+          </div>
+            <nav class="visible-xs">
+                <div id="main-navigation" class="collapse">
+                    <ul class="mobile-menu text-right">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#documental">Documental</a></li>
+                        <li><a href="#hackathon">Hackathon</a></li>
+                        <li><a href="#formulario">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--------------------------------------------------------------------section---mi nombre------------------->
+    <section>
+        <div class="container-fluid">
+         <div class="text-center">
+             <h1>HOLA MI NOMBRE ES SAYDA <br>SOY CODER DE LABORATORIA</h1>
+             <p>Estas inetersado en desarrollar en un sitio web o nesitas un frontend developer , yo te puedo ayudar
+             <br>con los diferentes servicios que brindo</p>
+             <button>CONOCE MAS</button>
+         </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------section sobre mi--------------------------------->
+    <section>
+        <div class="container-fluid">
+            <div class="text-center">
+              <h2>SOBRE MI</h2>
+              <p>Soy egreasada de Laboratoria sali con el titulo Frontend developor Jr.desarrollo paginas web en HTML
+              <br>/CSS/Javascript.Soy creativa ,inteligente y alegre cosa que transmito en cada una de las paginas web que desarrollo
+              </p>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------------------------------------section-----de srvisios---->
+    <section class="servises" id="servisios">
+          <div class="container-fluid">
+            <h3 class="text-center">servicios</h3>
+             <div class="row">
+             <div class="col-md-3">
+                    <div class="icon-container">
+                        <i class="icon-diamond"></i>
+                    </div>
+                    
+                    <h4 class="text-center">Pruebalo <br>gratis</h4>
+                    <p class="text-center">Obten tu primer video screencast de un <br> usuario navegando tu pagina</p>
+             </div>
+             <div class="col-md-3">
+                    <div class="icon-paperplane">
+                        <i class="icon-clock"></i>
+                    </div>
+                    
+                    <h4 class="text-center">Compra el <br> Servicio completo</h4>
+                   <p class="text-center">Si te gusto ; compra nuestro servicio <br> completo que incluye 7 Videos y feedback.</p>
+             </div>
+             <div class="col-md-3">
+                  <div class="icon-container">
+                    <i class="icon-newspaper"></i>
+                  </div>
+                   
+                    <h4 class="text-center">Obten el resultado <br>en 1 dia</h4>
+                    <p class="text-center">Te haremos llegar los videos y el feedback <br> completo en el mismo dia</p>
+             </div>
+             <div class="col-md-3">
+                  <div class="icon-container">
+                    <i class="icon-heart"></i>
+                  </div>
+                   
+                    <h4 class="text-center">Obten el resultado <br>en 1 dia</h4>
+                    <p class="text-center">Te haremos llegar los videos y el feedback <br> completo en el mismo dia</p>
+             </div>
+             </div>
+          </div>
+      </section>
 </body>
 </html>
