@@ -14,11 +14,12 @@ body{
 }
 .fondo{
     background-color: rgba(210, 110, 234, 0.62);
+    z-index: 1;
     position: fixed;
     width: 100%;
 }
-header h5{
-    color:white;
+.cinco{
+    color: white;
     font-size: 25px;
 }
 nav li a{
@@ -51,7 +52,7 @@ nav li a:hover, nav li a:focus, nav li a:active{
 
 .hola .text-center{
    margin: 250px;
-    color:rgba(171, 73, 201, 0.92);
+  color:rgba(171, 73, 201, 0.92);
 }
 .hola .text-center p{
     font-size: 18px;
@@ -67,28 +68,50 @@ nav li a:hover, nav li a:focus, nav li a:active{
 /*---------------------------------------------section---sobre---mi*/
 .sobre{
     background-color: rgba(103, 29, 190, 0.76);
-    background-position: bottom;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 50px;
     color: white;
 }
 /*---------------------------------section------servisios----*/
-.servisios{
-    padding: 30px;
+
+.servisios hr {
+   width: 50px;
+    border-top: 2px solid #9300ff;
+    margin-top: -5px; 
+}
+.servisios p{
+    font-size: 15px;
 }
 .icon-container{
     margin: 0;
     font-size: 60px;
     text-align: center;
-    color:rgba(171, 73, 201, 0.92);;
+    color:rgba(171, 73, 201, 0.92);
 }
 /*-------------------------------sectionj----------------------------imagenes------------------*/
-.imagenes .text-center{
-    background-image: url(../img/pastekl.jpg);
-    background-position: bottom;
-    padding:20px;
+.imagenes .pro{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    
+}
+ .imagenes .texto{
+    box-sizing: border-box;
+    color: transparent;
+    text-align: center;
+    padding: 70px
+}
+.texto:hover{
+    background: rgba(171, 73, 201, 0.59);
     color: white;
-    font-size: 18px;
+}
+.imagenes .pre{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    
+}
+.imagenes{
+    color: white;
+    font-size: 28px;
 }
 .imagenes button{
     background:white;
@@ -106,6 +129,52 @@ nav li a:hover, nav li a:focus, nav li a:active{
     margin: 0;
     padding: 0;
 }
+.imagenes .container-fluid {
+    background:rgba(192, 120, 198, 0.86);
+}
 img{
     width: 100%;
+}
+/*---------------------------------------------------------------footer----------------------------*/
+footer hr {
+    width: 50px;
+    border-top: 2px solid #9300ff;
+    margin-top: -5px;
+}
+footer i{
+    font-size: 40px;
+}
+footer li {
+    margin-left:90px;
+}
+.color{
+    color: #9300ff;
+}
+/*-----------------------------------medias-----------------------*/
+@media screen and (max-width:990px)and (min-width:768px){
+    .fondo .row>div{
+        text-align: left;
+        width: 50%;
+    }
+    .desktop-menu a{
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .hola .text-center{
+       margin: 100px;
+        padding: 0px;
+    }
+    .servisios i {
+       font-size: 108px;
+    }
+    .servisios h4 p{
+    font-size: 68px;
+  
+    }
+}
+@media screen and (max-width:667px)and (min-width:375px){
+   .hola .text-center{
+        margin:0; 
+    }
 }
