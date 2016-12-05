@@ -96,7 +96,7 @@ nav li a:hover, nav li a:focus, nav li a:active{
     box-sizing: border-box;
     color: transparent;
     text-align: center;
-    padding: 70px
+    padding: 68px
 }
 .texto:hover{
     background: rgba(171, 73, 201, 0.59);
