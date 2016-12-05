@@ -80,7 +80,7 @@ nav li a:hover, nav li a:focus, nav li a:active{
     margin: 0;
     font-size: 60px;
     text-align: center;
-    color:#486f3a;
+    color:rgba(171, 73, 201, 0.92);;
 }
 /*-------------------------------sectionj----------------------------imagenes------------------*/
 .imagenes .text-center{
