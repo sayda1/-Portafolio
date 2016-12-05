@@ -13,46 +13,48 @@
 </head>
 <body>
     <header class="menu">
-        <div class="container-fluid"> 
-          <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                  <h5>MI PORTAFOLIO</h5>
-                </div>
-                
-                <div class="col-md-9 col-sm-9 col-xs-6">
-                    <div class="visible-xs text-right">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
-                          <span class="sr-header"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                        </button>
+       <div class="fondo">
+            <div class="container-fluid"> 
+              <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                      <h5>MI PORTAFOLIO</h5>
                     </div>
-                    
-                    <nav class="hidden-xs">
-                     <ul class=" desktop-menu list-inline text-right">
-                           <li><a href="#">Inicio</a></li>
-                           <li><a href="#documental">Documental</a></li>
-                           <li><a href="#hackathon">Hackathon</a></li>
-                           <li><a href="#formulario">Contacto</a></li>
-                     </ul>
-                   </nav>
-                </div>
-          </div>
-            <nav class="visible-xs">
-                <div id="main-navigation" class="collapse">
-                    <ul class="mobile-menu text-right">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#documental">Documental</a></li>
-                        <li><a href="#hackathon">Hackathon</a></li>
-                        <li><a href="#formulario">Contacto</a></li>
-                    </ul>
-                </div>
-            </nav>
+
+                    <div class="col-md-9 col-sm-9 col-xs-6">
+                        <div class="visible-xs text-right">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                              <span class="sr-header"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <nav class="hidden-xs">
+                         <ul class=" desktop-menu list-inline text-right">
+                               <li><a href="#sobre">SOBRE MI</a></li>
+                               <li><a href="#servisios">SERVICIOS</a></li>
+                               <li><a href="#imagenes">MIS TRABAJOS</a></li>
+                               <li><a href="#contactame">CONTACTAME</a></li>
+                         </ul>
+                       </nav>
+                    </div>
+              </div>
+                <nav class="visible-xs">
+                    <div id="main-navigation" class="collapse">
+                        <ul class="mobile-menu text-right">
+                            <li><a href="#sobre">SOBRE MI</a></li>
+                            <li><a href="#servisios">SERVISIOS</a></li>
+                            <li><a href="#imagenes">MIS TAREAS</a></li>
+                            <li><a href="#contactame">CONTACTAME</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </header>
     <!--------------------------------------------------------------------section---mi nombre------------------->
-    <section>
+    <section class="hola">
         <div class="container-fluid">
          <div class="text-center">
              <h1>HOLA MI NOMBRE ES SAYDA <br>SOY CODER DE LABORATORIA</h1>
@@ -63,8 +65,8 @@
         </div>
     </section>
     <!--------------------------------------------------------section sobre mi--------------------------------->
-    <section>
-        <div class="container-fluid">
+    <section class="sobre">
+        <div class="container-fluid" id="sobre">
             <div class="text-center">
               <h2>SOBRE MI</h2>
               <p>Soy egreasada de Laboratoria sali con el titulo Frontend developor Jr.desarrollo paginas web en HTML
@@ -74,44 +76,101 @@
         </div>
     </section>
     <!-------------------------------------------------------------------------------section-----de srvisios---->
-    <section class="servises" id="servisios">
-          <div class="container-fluid">
+    <section class="servisios" id="servisios">
+        <div class="container">
             <h3 class="text-center">servicios</h3>
-             <div class="row">
-             <div class="col-md-3">
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
                     <div class="icon-container">
                         <i class="icon-diamond"></i>
                     </div>
-                    
-                    <h4 class="text-center">Pruebalo <br>gratis</h4>
-                    <p class="text-center">Obten tu primer video screencast de un <br> usuario navegando tu pagina</p>
-             </div>
-             <div class="col-md-3">
-                    <div class="icon-paperplane">
-                        <i class="icon-clock"></i>
+                    <h4 class="text-center">Desarrollo de plantillas</h4>
+                    <p class="text-center">Desarrollo de plantillas a medida con <br>HTML/CSS/JS</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="icon-container">
+                        <i class="icon-paperplane"></i>
                     </div>
-                    
-                    <h4 class="text-center">Compra el <br> Servicio completo</h4>
-                   <p class="text-center">Si te gusto ; compra nuestro servicio <br> completo que incluye 7 Videos y feedback.</p>
-             </div>
-             <div class="col-md-3">
-                  <div class="icon-container">
-                    <i class="icon-newspaper"></i>
-                  </div>
-                   
-                    <h4 class="text-center">Obten el resultado <br>en 1 dia</h4>
-                    <p class="text-center">Te haremos llegar los videos y el feedback <br> completo en el mismo dia</p>
-             </div>
-             <div class="col-md-3">
-                  <div class="icon-container">
-                    <i class="icon-heart"></i>
-                  </div>
-                   
-                    <h4 class="text-center">Obten el resultado <br>en 1 dia</h4>
-                    <p class="text-center">Te haremos llegar los videos y el feedback <br> completo en el mismo dia</p>
-             </div>
-             </div>
-          </div>
-      </section>
+                    <h4 class="text-center">Campaña de Mailing</h4>
+                    <p class="text-center">Desarrollo de plantillas para <br>campañas por correo</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="icon-container">
+                        <i class="icon-newspaper"></i>
+                    </div>
+                    <h4 class="text-center">Full websites</h4>
+                    <p class="text-center">Desarrollo websites completos y <br> dinamicos</p>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="icon-container">
+                        <i class="icon-heart"></i>
+                    </div>
+                    <h4 class="text-center">Aplicaciones Android</h4>
+                    <p class="text-center">Desarrollo aplicaciones Android <br>listas para subir a la tienda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------section-------------------------------de---imagenes----------------------->
+    <section>
+        <div class="container-fluid" id="imagenes">
+            <div class="row">
+             
+              <div class="col-md-4">
+                  <img src="img/1.jpg" alt="">
+              </div> 
+               <div class="col-md-4">
+                  <img src="img/2.jpg" alt="">
+              </div> 
+               <div class="col-md-4">
+                  <img src="img/3.jpg" alt="">
+              </div>
+                
+            </div>
+            <div class="row">
+              
+               <div class="col-md-4">
+                  <img src="img/4.jpg" alt="">
+              </div> 
+               <div class="col-md-4">
+                  <img src="img/5.jpg" alt="">
+              </div> 
+               <div class="col-md-4">
+                  <img src="img/6.jpg" alt="">
+              </div>
+                
+            </div>
+            <div class="text-center">
+                <p>si quieres saber de mi proyecto revisa mi github</p>
+                <button> 
+                <a href="https://github.com/sayda1">ver mi github</a></button>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------footer------contactame----------------->
+    <footer>
+      <div class="container" id="contactame">
+          <div class="text-center">
+               <h2>CONTACTAME</h2>
+               <p>¿Listo para enpezar tu proyecto?¿Te gusta lo que has visto? Genial,dame una llamada o <br>enviame un correo y te
+               respondere lo mas rapido que pueda</p>
+               <hr>
+               <ul class="list-inline">
+                   <li>
+                       <i class="icon-phone"></i>
+                       <p>123-456-6789</p>
+                   </li>
+                   <li>
+                      <i class="icon-mail-envelope-closed"></i> 
+                       <p>flor.huillca123</p>
+                   </li>
+               </ul>
+           </div>
+       </div>
+    </footer>
 </body>
 </html>

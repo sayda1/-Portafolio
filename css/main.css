@@ -1,6 +1,111 @@
 *{
   outline: 1px solid green;  
 }
-.icon-bar{
-    background: black;
+body{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------------------------------header---*/
+.hola , header{
+    background-image: url(../img/nitida.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fondo{
+    background-color: rgba(210, 110, 234, 0.62);
+    position: fixed;
+    width: 100%;
+}
+header h5{
+    color:white;
+    font-size: 25px;
+}
+nav li a{
+	display: block;
+	padding: 10px 15px;
+	transition: all 0.2s;
+	border-radius: 6px;
+    font-size:18px;
+    color: white;
+}
+nav li a:hover, nav li a:focus, nav li a:active{
+	text-decoration: none;
+	outline: none;
+	background: #8d62a8;
+    color: black;
+}
+#main-navigation{
+    z-index:503;
+	right: 10px;
+	margin: 10px 0 0 0;
+}
+#main-navigation ul{
+	background: rgba(0,0,0,0.7);
+	list-style: none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+/*--------------------------------------------------------------section----hola*/
+
+.hola .text-center{
+   margin: 250px;
+    color:rgba(171, 73, 201, 0.92);
+}
+.hola .text-center p{
+    font-size: 18px;
+}
+.hola button{
+   background: #49c4c9;
+    font-size: 15px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+/*---------------------------------------------section---sobre---mi*/
+.sobre{
+    background-color: rgba(103, 29, 190, 0.76);
+    background-position: bottom;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+}
+/*---------------------------------section------servisios----*/
+.servisios{
+    padding: 30px;
+}
+.icon-container{
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    color:#486f3a;
+}
+/*-------------------------------sectionj----------------------------imagenes------------------*/
+.imagenes .text-center{
+    background-image: url(../img/pastekl.jpg);
+    background-position: bottom;
+    padding:20px;
+    color: white;
+    font-size: 18px;
+}
+.imagenes button{
+    background:white;
+    font-size: 15px;
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+    border:3px solid rgba(101, 27, 219, 0.68); 
+}
+.imagenes a{
+    color: #262926;
+    font-size: 18px;
+}
+.container-fluid .col-md-4{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
 }
